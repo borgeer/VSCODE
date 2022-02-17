@@ -1,6 +1,6 @@
 media = 0
 
-for num in range (2):
+for num in range (3):
     num= int(input("Digite somente numeros inteiros: "))
     if num>=0:
         media = num+media
