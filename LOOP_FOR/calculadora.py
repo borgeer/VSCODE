@@ -1,11 +1,12 @@
-print ("1= SOMA, 2= DIVISAO, 3= SUBTRAÇÃO, 4= MULTIPLICAÇÃO 5=POTENCIA ")
+print ("1= SOMA, 2= DIVISAO, 3= SUBTRAÇÃO, 4= MULTIPLICAÇÃO 5=POTENCIA 6=SAIR")
 op = int(input("Digite o numero da operação que gostaria de fazer: "))
 
 
-while op>5 or op<=0:
+while op>=7 or op<=0:
     print("Digite um numero válido de operação ")
-    op = int(input("Digite o numero da operação que gostaria de fazer: "))
 
+    op = int(input("Digite o numero da operação que gostaria de fazer: "))
+    op = int(input("Digite 6 para sair "))
 
 if op==1:
     soma=0
@@ -37,3 +38,6 @@ if op==5:
     b=int(input("Digite o segundo numero: "))
     ex=a**b
     print(f'O numero {a} elevado a {b} é {ex}')
+
+if op == 6:
+    print ("Finalizou a calculadora ")
