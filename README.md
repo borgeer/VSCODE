@@ -1,1 +1,2 @@
-"# VSCODE" 
+Repositório destino a postar exercicios realizadas duranto meus cursos de pyhton, html, css e todos mais que fazer!
+Esse repositório seria (como o nome mesmo diz) referente a exercios que realizo no meu computador de trabalho, assim tenho divido as atividades para não se perder durante os processos de ensino
